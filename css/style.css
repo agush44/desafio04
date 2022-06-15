@@ -103,11 +103,9 @@ a:visited{
 
 .section{
     height: 80vh;
-    display: flex;
 }
 
 .aside{
-    display: flex;
     height: 80vh;
 }
 
@@ -141,12 +139,6 @@ a:visited{
 }
 
 /* PRODUCTOS */
-
-.col-4{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
 
 .card{
     margin-bottom: 2rem;
@@ -330,6 +322,12 @@ textarea{
 
 @media (max-width: 480px) {
 
+/* GENERAL */
+
+.nav-item a:hover{
+    border-bottom: none;
+}
+
 /* INDEX */
 
 .indexGrilla {  
@@ -431,5 +429,4 @@ textarea{
 .containerForm{
     height: 80vh;
 }
-
 }
