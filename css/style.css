@@ -359,18 +359,14 @@ textarea{
 }
 
 .cajaImagen{
-    padding-left: 30px;
+    width: 100%;
     padding-right: 0;
 }
 
-.menu ul li{
-    padding: 0;
-    margin: 10px 0;
+.imagen{
+    width: 100%;
+    margin: 0 auto;
 }
-
-.menu a{
-    padding: 5px;
-} 
 
 /* PRODUCTOS */
 
@@ -387,10 +383,24 @@ textarea{
 /* GALERÍA */
 
 .main-galeria{
-    width: 100%;
-    height: 80vh;
     display: flex;
     flex-direction: column;
+}
+
+.galeriaText{
+    height: 50vh;
+    width: 100%;
+    padding: 1rem;
+}
+
+.galeriaText p{
+    padding: 1rem;
+}
+
+.contenedor-galeria{
+    width: 50%;
+    height: 40vh;
+    margin: 0 auto;
 }
 
 /* NOSOTROS */
@@ -415,15 +425,6 @@ textarea{
     height: 60vh;
     box-sizing: border-box;
 }
-
-/* .nosotros1{
-    padding: 0 1rem;
-    height: 45vh;
-} */
-
-/* .nosotros2{
-    padding: 2rem;
-} */
 
 /* CONTACTO */
 
